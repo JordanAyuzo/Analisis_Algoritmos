@@ -12,7 +12,5 @@ def main():
         BruteForcecutrod(p,i-1 )#P ES LA BARRA A MEDIR,i-1 ES R
         finish = time.time()
         total = finish- start
-        temp.append(total)
-        print (i)
     graph(stp, temp)
 main()                     
